@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.container, .kiri-2, .kanan, .atas, .bawah {
+    border-radius: 20px; /* Atur nilai sesuai keinginan */
+}
+
+.container {
+    width: 100%;
+    height: 720px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.kiri {
+    display: flex;
+    flex-direction: row;
+    width: 490px;
+    gap: 20px;
+    background-color: green;
+}
+
+.kiri-2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    background-color: purple;
+}
+
+.atas-kiri{
+    height: 50%;
+    background-color: orange;
+    border-radius: 20px;
+}
+
+.bawah-kiri{
+    height: 50%;
+    background-color: brown;
+    border-radius: 20px;
+}
+
+.kanan-2{
+    width: 50%;
+    background-color: pink;
+    border-radius: 20px;
+}
+
+.kanan {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    gap: 30px;
+    background-color: blue;
+}
+
+.atas {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 50%;
+    background-color: yellow;
+}
+.bawah {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 50%;
+    background-color: red;
+}
